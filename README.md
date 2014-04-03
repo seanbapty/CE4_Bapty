@@ -9,4 +9,7 @@ In part A the goal was to write a program that stores the value $9 in location $
 ![alt tag](https://raw.githubusercontent.com/seanbapty/CE4_Bapty/master/partA.JPG)
 
 # Part B
-In part B the goal was to write a program that retrieves a value from location $B0, doubles it, and subtracts 4. 
+In part B the goal was to write a program that retrieves a value from location $B0, doubles it, and subtracts 4. The below image illustrates the mnemonics used (labeled Instruction) as well as the corresponding opcodes and operands.
+
+![alt tag](https://raw.githubusercontent.com/seanbapty/CE4_Bapty/master/partB.JPG)
+
