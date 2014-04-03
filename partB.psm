@@ -4,19 +4,19 @@
 		   03	   E	ADDD	B0		N	2	Y
 		   04	   0				Y	0	N
 		   05	   B				Y	0	N
-		   06	   D	STA	B2		N	2	N
-		   07	   2				Y	0	N
-		   08	   B				Y	0	N
-		   09	   F	LDAD	B1		N	2	Y
-		   0A	   1				Y	0	N
-		   0B	   B				Y	0	N
-		   0C	   1	NEG			N	0	Y
-		   0D	   E	ADDD	B2		N	2	Y
-		   0E	   2				Y	0	N
-		   0F	   B				Y	0	N
-		   10	   9	JMP	Begin		N	2	Y
-		   11	   0				Y	0	N
-		   12	   0				Y	0	N
+		   06	   6	ADDI	C		N	1	N
+		   07	   C				Y	0	N
+		   08	   9	JMP	Begin		N	2	Y
+		   09	   0				Y	0	N
+		   0A	   0				Y	0	N
+		   0B	   0	NOP			N	0	Y
+		   0C	   0	NOP			N	0	Y
+		   0D	   0	NOP			N	0	Y
+		   0E	   0	NOP			N	0	Y
+		   0F	   0	NOP			N	0	Y
+		   10	   0	NOP			N	0	Y
+		   11	   0	NOP			N	0	Y
+		   12	   0	NOP			N	0	Y
 		   13	   0	NOP			N	0	Y
 		   14	   0	NOP			N	0	Y
 		   15	   0	NOP			N	0	Y
@@ -166,14 +166,14 @@
 		   A5	   0	NOP			N	0	Y
 		   A6	   0	NOP			N	0	Y
 		   A7	   0	NOP			N	0	Y
-		   A8	   0	NOP			N	0	Y
-		   A9	   0	NOP			N	0	Y
-		   AA	   0	NOP			N	0	Y
-		   AB	   0	NOP			N	0	Y
-		   AC	   0	NOP			N	0	Y
-		   AD	   0	NOP			N	0	Y
-		   AE	   0	NOP			N	0	Y
-		   AF	   0	NOP			N	0	Y
+		   A8	   0	NOP			N	0	N
+		   A9	   0	NOP			N	0	N
+		   AA	   0	NOP			N	0	N
+		   AB	   0	NOP			N	0	N
+		   AC	   0	NOP			N	0	N
+		   AD	   0	NOP			N	0	N
+		   AE	   0	NOP			N	0	N
+		   AF	   0	NOP			N	0	N
 	B0	   B0	   6	
 	B1	   B1	   4	
 	B2	   B2	   C	
