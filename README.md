@@ -16,3 +16,10 @@ In part B the goal was to write a program that retrieves a value from location $
 # Part C
 In part C the goal was to write a program that starts by reading what is on Input Port 3 and then displaying that on Output Port 0.  One less than that was then displayed on Port 1 and one less than what is on Port 1 was displed on Port 2. The program then decrements what is on Port 0, then decrements what is on Port 1, then decrements what is on Port 2.  This process is continued in an infinite loop. The assembly instructions given to PRISM are shown below.
 
+![alt tag](https://raw.githubusercontent.com/seanbapty/CE4_Bapty/master/partC.JPG)
+
+# Error Log
+While working with the PRISM program it is important to give the RAM location a label otherwise it cannot be referenced from the programming wizard.
+
+# Documentation
+None
