@@ -6,11 +6,11 @@
 		   05	   B				Y	0	N
 		   06	   6	ADDI	C		N	1	N
 		   07	   C				Y	0	N
-		   08	   9	JMP	Begin		N	2	Y
-		   09	   0				Y	0	N
-		   0A	   0				Y	0	N
-		   0B	   0	NOP			N	0	Y
-		   0C	   0	NOP			N	0	Y
+		   08	   4	OUT	2		N	1	N
+		   09	   2				Y	0	N
+		   0A	   9	JMP	Begin		N	2	Y
+		   0B	   0				Y	0	N
+		   0C	   0				Y	0	N
 		   0D	   0	NOP			N	0	Y
 		   0E	   0	NOP			N	0	Y
 		   0F	   0	NOP			N	0	Y
@@ -166,8 +166,8 @@
 		   A5	   0	NOP			N	0	Y
 		   A6	   0	NOP			N	0	Y
 		   A7	   0	NOP			N	0	Y
-		   A8	   0	NOP			N	0	N
-		   A9	   0	NOP			N	0	N
+		   A8	   0	NOP			N	0	Y
+		   A9	   0	NOP			N	0	Y
 		   AA	   0	NOP			N	0	N
 		   AB	   0	NOP			N	0	N
 		   AC	   0	NOP			N	0	N
